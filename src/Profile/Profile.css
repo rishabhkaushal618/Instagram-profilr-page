@@ -1,0 +1,147 @@
+.pofile-image {
+    padding-top: 17%;
+    padding-left:35%;
+}
+
+.profile-circle {
+    width: 150%;
+    height: 80%;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 160%;
+    font-weight: 375;
+}
+
+.margin-right-profile {
+    border-radius: 5px;
+    border-width: 1px;
+    height: 18%;
+    width:20%;
+    margin-left: 5%;
+}
+
+.margin {
+    margin-top: -20px;
+    padding: 0px;
+}
+
+.hover-link {
+    text-decoration: none;
+    margin-top:-15px;
+}
+
+.hover-link:hover {
+    text-decoration: underline;
+}
+
+.underline {
+    display: none;
+}
+
+.underline-2 {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+   
+    .profile-circle {
+        width: 110%;
+        height: 85%;
+        border: 3px solid black;
+        border-radius: 50%;
+    }
+
+    .pofile-image {
+        margin-left: -25%;
+    }
+
+    .margin-right-profile {
+        width: 100%;
+        margin-left: 1%;
+        margin-top: 3%;
+        padding: 5px;
+    }
+    
+    /* .profile-circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        margin-right: 5%;
+    } */
+
+    .follow {
+        position: relative;
+        top: 375px;
+        left: -60px;
+        text-align: center;
+        padding-right: 7%;
+    }
+    
+    .follow p {
+        margin-right: 5%;
+    }
+
+    .margin {
+        position: relative;
+        top: -20%;
+        left: -39%;
+    }
+
+    .underline {
+        display: block;
+        border-width: 2px;
+        position: relative;
+        top: 80px;
+    }
+
+    .underline-2 {
+        display: block;
+        position: relative; 
+        top: 125px; 
+        border-width: 2px;
+    }
+
+    .margin-top-profile-name {
+        margin-left: 0%;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .pofile-image {
+        margin-left: -33%;
+        height: 50%;
+        width: 80%;
+        margin-top: -10%;
+        border-radius: 100%;
+    }            
+    
+    .margin {
+        top: -15%
+    }
+
+    .margin-top-profile-name {
+        margin-left: -10%;
+    }
+
+    .margin-right-profile {
+        width: 52%;
+        margin-left: 9%;
+        margin-top: 3%;
+        padding: 5px;
+        position: relative;
+        left: -9%
+    }
+
+    .follow p {
+        
+        margin-right: 33%;
+    }
+
+    .follow .follow-posts {
+       margin-left: 0%;
+    }
+}

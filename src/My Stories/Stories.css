@@ -1,0 +1,56 @@
+
+.stories-circle {
+    width: 60%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.stories-plus {
+    width: 70%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 50px;
+    background-color: rgb(222, 222, 228);
+}
+
+.bi-plus-lg {
+    opacity: 0.5;
+    padding-left: 3px;
+}
+
+.underline-1 {
+    border-width: 2px;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.stories-image {
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.underline-1 {
+    border-width: 2px;
+}
+
+@media screen and (max-width: 900px) {
+    .stories-image {
+        position: relative;
+        top: -90px;
+        left: -8%;
+    }
+
+    .stories-plus {
+        margin-left: -25px;
+    }
+
+    .margin-stories {
+         margin-left: -22px;
+    }
+
+    .underline-1 {
+        display: none;
+    }
+}

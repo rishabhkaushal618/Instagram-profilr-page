@@ -1,0 +1,93 @@
+.return_profile {
+    width: 39px;
+    height: 39px;
+    border: 3px solid  black;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+
+.posted_Image {
+    width: 25px;
+    height: 25px;
+    border: 3px solid  black;
+    border-radius: 50%;
+    margin: 7px 0 0 0;
+}
+
+/* Posted CSS */
+
+.center_image {
+    width: 33.3%;
+    margin: 0 auto;
+    background-color: rgb(204, 197, 216);
+    margin-top: 1.5%;
+    padding: 0.5%;
+    outline: 0.5px solid rgb(209, 204, 204);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.margin_auto {
+    text-align: center;
+}
+
+.image_posted {
+    width:33.5%;
+    height: 399px;
+}
+
+.center_like {
+    width: 33.3%;
+    margin: 0 auto;
+    background-color: rgb(247, 240, 240);
+    outline: 0.5px solid rgb(209, 204, 204);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.color a i{
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .center_image {
+        width: 100%;
+    }
+
+    .image_posted {
+        width: 100%;
+    }
+
+    .center_like {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px){
+    .center_image {
+        width: 80%;
+    }
+
+    .image_posted {
+        width: 80%;
+    }
+
+    .center_like {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1250px){
+    .center_image {
+        width: 50%;
+    }
+
+    .image_posted {
+        width: 50%;
+    }
+
+    .center_like {
+        width: 50%;
+    }
+}
+
